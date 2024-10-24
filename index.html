@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Commission Calculation</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sales Commission Calculation</h1>
+        <!-- The form now submits to index.php -->
+        <form action="index.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="month">Month:</label>
+            <input type="text" id="month" name="month" required>
+
+            <label for="sales_amount">Sales Amount:</label>
+            <input type="number" id="sales_amount" name="sales_amount" required>
+
+            <input type="submit" value="Calculate Commission">
+        </form>
+    </div>
+</body>
+</html>
